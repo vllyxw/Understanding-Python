@@ -149,6 +149,33 @@ Traceback (most recent call last):
 ValueError: could not convert string to float: 'python'
 ~~~
 
+<h2>Funções de entrada e saída</h2>
+
+<h3>Ler valores com a função input</h3>
+<p>A função input é utilizada quando queremos ler dados da entrada padrão (teclado). Ela recebe um argumento do tipo string, que é exibido para o usuário na saída padrão (tela). A função lê a entrada, converte para string e retorna o valor</p>
+
+~~~
+nome = input("Infome o seu nome: ")
+>>> Informe seu nome:
+~~~
+
+<h3>Exibindo valores com função print</h3>
+<p>A função print é utilizada quando queremos exibir dados na saída padrão (tela). Ela recebe um argumento obrigatório do tipo varargs de objetos e 4 argumentos opcionais (sep, end, file e flush). Todos os objetos são convertidos para string, separados por sep e terminaods por end. A string final é exibida para o usuário</p>
+
+~~~
+nome = "Victoria"
+sobrenome = "Pansini"
+
+print(nome, sobrenome)
+print(nome, sobrenome, end="...\n")
+print(nome, sobrenome, sep="#")
+
+>>> Victoria Pansini
+>>> Victoria Pansini...
+>>> Victoria#Pansini
+~~~
+
+
 
 
 
