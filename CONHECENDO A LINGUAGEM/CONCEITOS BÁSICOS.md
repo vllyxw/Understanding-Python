@@ -13,5 +13,7 @@
 
 <h3>dir</h3>
 <p>Sem argumentos, retorna a lista de nomes no escopo local atual. Com um argumento, retorna uma lista de atributos válidos para o objeto. Exemplo: 
+<br>
 dir()
+<br>
 dir(100)</p>
