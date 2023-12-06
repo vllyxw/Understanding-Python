@@ -17,3 +17,11 @@
 dir()
 <br>
 dir(100)</p>
+
+<h3>help</h3>
+<p>Invoca o sistema de ajuda integrado. É possível fazer buscas em modo interativo ou informar por parâmetro qual o nome do módulo, função, classe, método ou variável. Exemplo:
+<br>
+help
+<br>
+help(100)</p>
+
