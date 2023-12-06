@@ -52,11 +52,60 @@ STATES = [
 AMOUNT = 30.2
 ~~~
 
-<h2>Boas Práticas</h2>
+<h3>Boas Práticas</h3>
 
 * O padrão de nomes deve ser snake case
 * Escolher nomes sugestivos
 * Nome de constantes todo em maiúsculo
+
+<h2>Conversão de tipos</h2>
+
+<h3>Convertando tipos</h3>
+<p>Em alguns momentos será necessário converter o tipo da variável para manipular de forma diferente. Por exemplo:</p>
+<p>Variáveis do tipo string, que armazenam números e precisamos fazer alguma operação matemática com esse valor</p>
+
+<p>Convertendo Inteiros para float</p>
+
+~~~
+preço = 10
+print(preco)
+>>> 10
+
+preco = float(preco)
+print(preco)
+>>> 10.0
+
+preco = 10 / 2
+print(preco)
+>>> 5.0
+~~~
+
+<p>Float para inteiro</p>
+
+~~~
+preco = 10.30
+print(preco)
+>>> 10.3
+
+preco = int(preco)
+print(preco)
+>>> 10
+~~~
+
+<p>Conversão por divisão</p>
+
+~~~
+preco = 10
+print(preco)
+>>> 10
+
+print(preco / 2)
+>>> 5.0
+
+print(preco // 2)
+>>> 5
+~~~
+
 
 
 
