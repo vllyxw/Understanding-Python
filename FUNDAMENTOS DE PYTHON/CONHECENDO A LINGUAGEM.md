@@ -52,6 +52,13 @@ STATES = [
 AMOUNT = 30.2
 ~~~
 
+<h2>Boas Práticas</h2>
+
+* O padrão de nomes deve ser snake case
+* Escolher nomes sugestivos
+* Nome de constantes todo em maiúsculo
+
+
 
 
 
