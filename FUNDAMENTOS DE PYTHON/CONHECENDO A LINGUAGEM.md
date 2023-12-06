@@ -106,7 +106,48 @@ print(preco // 2)
 >>> 5
 ~~~
 
+<p>Numérico para string</p>
 
+~~~
+preco = 10.50
+idade = 28
+
+print(str(preco))
+>>> 10.5
+
+print(str(idade))
+>>> 28
+
+texto = f"idade {idade} preco {preco}"
+print(texto)
+>>> idade 28 preco 10.5
+~~~
+
+<p>String para número</p>
+
+~~~
+preco = "10.50"
+idade = "28"
+
+print(float(preco))
+>>> 10.50
+
+print(int(idade))
+>>> 28
+~~~
+
+<p>Erro de conversão</p>
+
+~~~
+preco = "python"
+print(float(preco))
+
+>>>
+Traceback (most recent call last):
+   File "main.py", line 3, in <module>
+      print(float(preco))
+ValueError: could not convert string to float: 'python'
+~~~
 
 
 
