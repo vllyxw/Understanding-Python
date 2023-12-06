@@ -37,6 +37,23 @@ age = 23
 name = 'João'
 ~~~
 
+<h3>Constantes</h3>
+<p>Assim como as variáveis, constantesnsão utilizadas para armazenar valores. Uma constantw nasce com um valor e permanece com ele até o final da execução do programa, ou seja, o valor é imutável</p>
+
+<p>Porém Python não tem constantes, não existe uma palavra reservada para informar ao interpretador que o valor é constante. Em Python usuamos a convenção que diz ao programador que a variável é uma constante. Para fazer isso, você deve criar a variável com o nome todo em letras maiúsculas:</p>
+
+~~~
+DEBUG = True
+STATES = [
+    'SP',
+    'RJ',
+    'MG',
+]
+AMOUNT = 30.2
+~~~
+
+
+
 
 
 
