@@ -1,6 +1,7 @@
 MAIOR_IDADE = 18
 IDADE_ESPECIAL = 12
 
+
 idade = int(input("Informe sua idade: "))
 
 if idade >= MAIOR_IDADE:
